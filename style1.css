@@ -18,7 +18,7 @@ html {
 
 @media only screen and (max-width:600px) {
     .dv1 {
-margin: 0;
+        margin: 0;
         height: 70px;
 
         background-image: linear-gradient(to right, #d3cce3, #e9e4f0);
@@ -37,6 +37,7 @@ margin: 0;
         /* top: -5px; */
         clear: right;
     }
+
     .divmenu {
         padding: 10px;
         text-align: center;
@@ -45,7 +46,8 @@ margin: 0;
         width: 300px;
         height: 90px;
     }
-    .divmenu a{
+
+    .divmenu a {
         font-size: 1rem;
         text-align: center;
 
@@ -181,7 +183,7 @@ margin: 0;
         font-size: 17px;
         position: absolute;
         left: px;
-        margin-top:-10px;
+        margin-top: -10px;
         display: inline;
     }
 
@@ -207,7 +209,7 @@ margin: 0;
         background-color: #d4d3cf;
         margin-right: 0;
         box-sizing: border-box;
-       
+
         justify-content: space-around;
 
 
@@ -630,7 +632,7 @@ margin: 0;
         background-color: rgb(161, 160, 161);
         margin-right: 0;
         box-sizing: border-box;
-      display: flex;
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         box-shadow: 3px 6px 10px rgb(70, 84, 102);
@@ -701,13 +703,15 @@ margin: 0;
         /* background-color: #4c13e7; */
         text-align: center;
         transition: transform 1s;
-        
+
     }
-    .fa-2x{
+
+    .fa-2x {
         width: 25px;
         border: none;
     }
-    .fa-border{
+
+    .fa-border {
         border: none;
         border-radius: 100%;
     }
@@ -1445,8 +1449,8 @@ margin: 0;
 
     .vasat {
         position: absolute;
-padding-top: 29px;
-padding-left: 30px;
+        padding-top: 29px;
+        padding-left: 30px;
     }
 
     .p11:not(:hover) {
@@ -1484,6 +1488,7 @@ padding-left: 30px;
         background-image: linear-gradient(to right, #bdc3c7, #ddedff);
         margin: 0 auto;
     }
+
     .aside1 {
         width: 150px;
         height: 320px;
@@ -1675,4 +1680,3 @@ padding-left: 30px;
     pointer-events: none;
     transform: translate(-50%, -50%);
 }
-
